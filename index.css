@@ -1,0 +1,26 @@
+#canvas {
+    width: 50%;
+    height: 50%;
+    background: black;
+}
+
+div {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+input {
+    font-size: 1.25rem;
+    margin-bottom: 4vh;
+}
+
+body {
+    background: floralwhite;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+#canvas {
+    width: 100%;
+}
+}
