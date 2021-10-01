@@ -74,19 +74,13 @@ function plot() {
 
 //Responding to ENTER
 input.addEventListener("keyup", function(event){
-
-	if(event.keyCode == 13) {
+	if(event.keyCode == 13)
 		plot();
-	}
-
 });
 
 scale.addEventListener("keyup", function(event){
-
-	if(event.keyCode == 13) { 
+	if(event.keyCode == 13)
 		plot();
-	}
-
 });
 
 draw();
